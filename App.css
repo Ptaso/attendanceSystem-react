@@ -1,0 +1,62 @@
+body, html, #root, .app, .container {
+  width: 100%;
+  height: 100%;
+}
+
+
+.container {
+  font-family: garamond;
+  font-size: 26px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1f6d39cf;
+}
+
+.loginForm {
+ box-sizing: border-box;
+ width: 100%;
+ max-width: 400px;
+ padding-left: 20px;
+ padding-right: 20px;
+}
+
+.inputField {
+ padding-top: 16px;
+}
+
+.input {
+ font-family: garamond;
+ box-sizing: border-box;
+ outline: none;
+ border: solid 2px #30d255;
+ border-radius: 20px;
+ color: #000000;
+ width: 100%;
+ padding: 12px;
+ font-size: 16px;
+ font-weight: bold;
+ background: rgb(255, 255, 255);
+ cursor: pointer;
+}
+
+.submitButton {
+ padding-top: 16px;
+}
+
+
+.btn {
+ font-family: garamond;
+ width: 100%;
+ min-width: 280px;
+ color: #000000;
+ padding: 10px;
+ font-size: 20px;
+ font-weight: bold;
+ border: solid 2px #30d255;
+ border-radius: 20px;
+ background: #fff;
+ cursor: pointer;
+}
